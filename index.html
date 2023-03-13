@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+	<script>
+		const savePDF = () => window.print()
+	</script>
 </head>
 
 <body>
@@ -125,7 +127,8 @@
 		<div class="right">
 			<div class="name-div">
 				<h1>Chernytskyi Mykola</h1>
-				<p>Front-end Developer/Full-Stack Developer <br /><span class="button-save">CTR + P to save PDF</span></p>
+				<p>Front-end Developer/Full-Stack Developer <br /><button onclick="savePDF()" class="button-save">CTR + P to save
+						PDF</button></p>
 			</div>
 			<div class="box-2">
 				<h2>ABOUT ME <i class="material-icons icons3" style="font-size: 28px!important; ">perm_identity</i></h2>

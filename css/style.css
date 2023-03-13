@@ -124,19 +124,20 @@ a:visited {
 	letter-spacing: 3px;
 }
 
-.button-save {
+#button_save {
 	transition-duration: 0.4s;
 	background-color: white;
 	color: #ff9b00;
 	border: 2px solid #ff9b00;
 	padding: 0.5rem;
-	border-radius: 2px;
+	border-radius: 4px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.button-save:hover {
+#button_save:hover {
 	background-color: #4d4d4d;
 	color: white;
+	cursor: pointer;
 }
 
 .name-div h1 {
@@ -331,7 +332,7 @@ h2 {
 		display: none;
 	}
 
-	.button-save {
+	#button_save {
 		display: none;
 	}
 
@@ -342,11 +343,12 @@ h2 {
 	.contact_pdf {
 		display: flex;
 	}
+
 	a:link {
 		color: #ff9b00;
-	
+
 	}
-	
+
 	a:visited {
 		color: #ff9b00;
 	}

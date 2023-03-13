@@ -7,13 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script>
-		const savePDF = () => window.print()
+		window.addEventListener('DOMContentLoaded', (e) => {
+			const savePDF = () => window.print()
+			button_save.addEventListener("click", savePDF)
+		});
 	</script>
 </head>
 
 <body>
-
-	<div class="main">
+	<div id="printTbody" class="main">
 		<div class="left">
 			<div class="box-1">
 				<div class="profile-img"><img src="image/photo_2023-03-10_17-23-37.png"></div>
@@ -135,8 +137,8 @@
 		<div class="right">
 			<div class="name-div">
 				<h1>Chernytskyi Mykola</h1>
-				<p>Front-end Developer/Full-Stack Developer <br /><button onclick="savePDF()" class="button-save">Click
-						to save 
+				<p>Front-end Developer/Full-Stack Developer <br /><button id="button_save">Click
+						to save
 						PDF</button></p>
 			</div>
 			<div class="box-2">

@@ -6,16 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script>
-		window.addEventListener('DOMContentLoaded', (e) => {
-			const savePDF = () => window.print()
-			button_save.addEventListener("click", savePDF)
-		});
-	</script>
 </head>
 
 <body>
-	<div id="printTbody" class="main">
+	<div id="toPDF" class="main">
 		<div class="left">
 			<div class="box-1">
 				<div class="profile-img"><img src="image/photo_2023-03-10_17-23-37.png"></div>
@@ -137,9 +131,10 @@
 		<div class="right">
 			<div class="name-div">
 				<h1>Chernytskyi Mykola</h1>
-				<p>Front-end Developer/Full-Stack Developer <br /><button id="button_save">Click
-						to save
-						PDF</button></p>
+				<p>Front-end Developer/Full-Stack Developer</p>
+				<p class="button_p"><a
+						href="https://drive.google.com/file/d/1aG6buOwjhfmXGfhEkReR_XvSwFw17o7A/view?usp=sharing"
+						id="button_save">Save PDF</a></p>
 			</div>
 			<div class="box-2">
 				<h2>ABOUT ME <i class="material-icons icons3" style="font-size: 28px!important; ">perm_identity</i></h2>

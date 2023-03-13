@@ -124,14 +124,19 @@ a:visited {
 	letter-spacing: 3px;
 }
 
+.button_p {
+	margin-top: 0.5em;
+}
+
 #button_save {
 	transition-duration: 0.4s;
 	background-color: white;
 	color: #ff9b00;
 	border: 2px solid #ff9b00;
-	padding: 0.5rem;
+	padding: 0.3rem;
 	border-radius: 4px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-decoration: none;
 }
 
 #button_save:hover {
